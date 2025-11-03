@@ -4,160 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Israt Jahan Samiha | Flutter Developer</title>
-  <style>
 
-    .profile-pic {
-      width: 150px;
-      border-radius: 50%;
-      margin-bottom: 15px;
-    }
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
-    body {
-      font-family: "Poppins", sans-serif;
-      margin: 0;
-      background: #f5f6ff;
-      color: #333;
-    }
-    header {
-      background-color: #7374ac;
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #4b4d8a;
-      border-bottom: 2px solid #a5a6f6;
-      display: inline-block;
-      margin-bottom: 20px;
-    }
-    .skills, .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #7374ac;
-      color: white;
-    }
-    a {
-      color: #4b4d8a;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  #soft-skills {
-  background-color: #f9f9ff;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
-}
-
-#soft-skills h2 {
-  text-align: center;
-  color: #4a4a8a;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-
-.skills-list {
-  list-style-type: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-  text-align: center;
-}
-
-.skills-list li {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 8px;
-  border-left: 4px solid #7374AC;
-  font-weight: 500;
-  color: #333;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.skills-list li:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-#technical-skills {
-  background-color: #f9f9ff;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
-}
-
-#technical-skills h2 {
-  text-align: center;
-  color: #4a4a8a;
-  margin-bottom: 20px;
-  font-size: 28px;
-}
-
-.skills-grid {
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  flex-wrap: wrap; /* for responsiveness on small screens */
-  align-items: flex-start; /* aligns columns at top */
-}
-
-.skills-column {
-  flex: 1;
-  min-width: 200px;
-}
-
-.skills-column h3 {
-  color: #7374AC;
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.skills-column ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.skills-column li {
-  background-color: #fff;
-  margin-bottom: 8px;
-  padding: 10px;
-  border-left: 4px solid #7374AC;
-  border-radius: 6px;
-  color: #333;
-  font-weight: 500;
-}
-
-
-  </style>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -173,60 +28,58 @@
     I’m always eager to learn and grow through real-world projects and collaborations.</p>
   </section>
 
+  <!-- Technical Skills -->
   <section id="technical-skills">
-  <h2>Technical Skills</h2>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skills-column">
+        <h3>Languages</h3>
+        <ul>
+          <li><i class="fa-brands fa-html5"></i> HTML</li>
+          <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+          <li><i class="fa-brands fa-js"></i> JavaScript</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="20"> Dart </li>
+          <li><i class="fa-brands fa-python"></i> Python</li>
+          <li><i class="fa-solid fa-cubes"></i> OOP Concepts</li>
+        </ul>
+      </div>
 
-  <div class="skills-grid">
-    <div class="skills-column">
-      <h3>Languages</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Dart</li>
-        <li>Python</li>
-        <li>OOP Concepts</li>
-      </ul>
+      <div class="skills-column">
+        <h3>Frameworks & Tools</h3>
+        <ul>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="20"> Flutter </li>
+          <li><i class="fa-solid fa-database"></i> Firebase</li>
+          <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+        </ul>
+      </div>
+
+      <div class="skills-column">
+        <h3>Design Tools</h3>
+        <ul>
+          <li><i class="fa-brands fa-figma"></i> Figma</li>
+          <li><i class="fa-solid fa-pen-nib"></i> Adobe Illustrator</li>
+          <li><i class="fa-solid fa-image"></i> Canva</li>
+        </ul>
+      </div>
     </div>
+  </section>
 
-    <div class="skills-column">
-      <h3>Frameworks & Tools</h3>
-      <ul>
-        <li>Flutter</li>
-        <li>Firebase</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </div>
-
-    <div class="skills-column">
-      <h3>Design Tools</h3>
-      <ul>
-        
-        <li>Figma</li>
-        <li>Canva</li>
-        <li>Adobe Illustrator</li>
-        
-      </ul>
-    </div>
-  </div>
-</section>
-
-
+  <!-- Soft Skills -->
   <section id="soft-skills">
-  <h2>Soft Skills</h2>
+    <h2>Soft Skills</h2>
+    <ul class="skills-list">
+      <li>Effective Communication</li>
+      <li>Team Collaboration</li>
+      <li>Problem Solving</li>
+      <li>Adaptability</li>
+      <li>Time Management</li>
+      <li>Leadership</li>
+      <li>Fast Learner</li>
+      <li>Honesty</li>
+    </ul>
+  </section>
 
-  <ul class="skills-list">
-    <li>Effective Communication</li>
-    <li>Team Collaboration</li>
-    <li>Problem Solving</li>
-    <li>Adaptability</li>
-    <li>Time Management</li>
-    <li>Leadership</li>
-    <li>Fast Learner</li>
-    <li>Honest</li>
-  </ul>
-</section>
-
+  <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
     <div class="projects">
@@ -238,35 +91,59 @@
       </div>
 
       <div class="card">
-        <h3>Digital_Doctor_Care-DDC</h3>
+        <h3>Digital Doctor Care (DDC)</h3>
         <p>To-do list app with Firebase authentication and real-time data sync.</p>
         <p>🔗 <a href="https://github.com/IsratJahanSamiha/Digital_Doctor_Care-DDC-.git">GitHub</a></p>
       </div>
     </div>
   </section>
 
+  <!-- Education -->
   <section id="education">
     <h2>Education</h2>
-    <p>
-      <strong>B.Sc. in Computer Science and Engineering</strong><br>
-    RUET, Bangladesh<br>
-    Graduation Year: 2023<br>
-    <em>Thesis:</em> "Colorectal Cancer Detection using Deep Learning"
-   </p>
 
-   <p>
-    <strong>Higher Secondary Certificate (HSC)</strong><br>
-    Engineering University School & College <br>
-    Dhaka Board, Year: 2017
-  </p>
+    <div class="education-container">
+     <div class="edu-card">
+       <h3>B.Sc. in Computer Science and Engineering</h3>
+       <p><strong>Rajshahi University of Engineering & Technology (RUET)</strong></p>
+       <p>Graduation Year: 2023</p>
+       <p><em>Thesis:</em> "Colorectal Cancer Detection using Deep Learning"</p>
+     </div>
 
-  <p>
-    <strong>Secondary School Certificate (SSC)</strong><br>
-    Agrani School and College <br>
-    Dhaka Board, Year: 2015
-  </p>
-  </section>
+     <div class="edu-card">
+       <h3>Higher Secondary Certificate (HSC)</h3>
+       <p><strong>Engineering University School & College</strong></p>
+       <p>Dhaka Board | Year: 2017</p>
+     </div>
 
+     <div class="edu-card">
+       <h3>Secondary School Certificate (SSC)</h3>
+       <p><strong>Agrani School and College</strong></p>
+       <p>Dhaka Board | Year: 2015</p>
+     </div>
+   </div>
+ </section>
+
+
+  <!-- Experience -->
+ <section id="experience">
+    <h2>Experience</h2>
+
+      <div class="experience-container">
+         <div class="exp-card">
+            <h3>Mobile App Engineering Internship Using Flutter</h3>
+            <p><strong>Execelerate</strong></p>
+            <p>Oct 2025 – Running </p>
+            <ul>
+              <li>Developed cross-platform mobile apps using Flutter and Dart.</li>
+              <li>Implemented responsive UI and API integration for real-world projects.</li>
+              <li>state management using Provider, Form Validation</li>
+           </ul>
+         </div>
+       </div>
+ </section>
+
+  <!-- Contact -->
   <section id="contact">
     <h2>Contact</h2>
     <p>📧 <a href="mailto:jahansamiha3@gmail.com">jahansamiha3@gmail.com</a><br>
@@ -275,7 +152,7 @@
   </section>
 
   <footer>
-    <p>© 2025 Israt Jahan Samiha | Built with using HTML & CSS | All rights reserved.</p>
+    <p>© 2025 Israt Jahan Samiha | Built with HTML & CSS | All rights reserved.</p>
   </footer>
 </body>
 </html>
